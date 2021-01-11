@@ -2,8 +2,9 @@
 #define SLIDEBUTTON_H
 
 #include <QWidget>
+#include <QAbstractButton>
 
-class SlideButton : public QWidget
+class SlideButton : public QAbstractButton
 {
     Q_OBJECT
 public:
@@ -11,6 +12,8 @@ public:
 
 signals:
 
+protected:
+    void paintEvent(QPaintEvent *e) override;
 };
 
 #endif // SLIDEBUTTON_H
