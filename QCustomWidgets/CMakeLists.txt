@@ -33,6 +33,8 @@ if(ANDROID)
     main.cpp
     Buttons/SlideButton.h
     Buttons/SlideButton.cc
+    Buttons/HoldButton.h
+    Buttons/HoldButton.cc
     MainWindow.cc
     MainWindow.h
     MainWindow.ui
@@ -43,6 +45,8 @@ else()
     main.cpp
     Buttons/SlideButton.h
     Buttons/SlideButton.cc
+    Buttons/HoldButton.h
+    Buttons/HoldButton.cc
     MainWindow.cc
     MainWindow.h
     MainWindow.ui
